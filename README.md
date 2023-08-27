@@ -34,5 +34,6 @@ The dataset contains a test folder and in a test.csv file, I have the details re
 GUI application(using tkinter module):
 Lastly, I also built a graphical user interface for the traffic signs classifier with Tkinter. Tkinter is a GUI toolkit in the standard python library.
 In this file, I have first loaded the trained model ‘traffic_classifier.h5’ using Keras. And then I built the GUI for uploading the image and a button is used to classify which calls the classify() function. The classify() function is converting the image into the dimension of shape (1, 30, 30, 3). This is because to predict the traffic sign we have to provide the same dimension we have used when building the model. Then I predict the class, the model.predict_classes(image) returns us a number between (0-42) which represents the class it belongs to. I used the dictionary to get the information about the class.
+![Testing](https://github.com/AnindyaSD/Traffic-Sign-Recognition/assets/93717247/7a3edd88-fc94-479a-ac4d-689f1892c3da)
 
 
